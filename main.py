@@ -104,7 +104,7 @@ class ResumeParser:
     
 
 def main():
-  OPENAI_API_KEY = "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"
+  OPENAI_API_KEY = "place_open_ai_key_here"
   parser = ResumeParser(OPENAI_API_KEY)
   pdf_text = parser.query_resume()
   print(pdf_text)
