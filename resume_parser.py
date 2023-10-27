@@ -1,4 +1,4 @@
-import openaig
+import openai
 from tokenizer import num_tokens_from_string
 
 class ResumeParser:
@@ -31,4 +31,3 @@ class ResumeParser:
       presence_penalty=presence_penalty,
     )
     return response
-
